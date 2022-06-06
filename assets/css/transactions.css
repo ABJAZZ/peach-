@@ -1,0 +1,103 @@
+.transaction-content {
+  width: 100%;
+  padding: 20px 10vw;
+}
+
+.transaction-content .cart-item {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.transaction-content .cart-item .cart-item-image {
+  width: 10%;
+  height: 200px;
+  min-width: 150px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 20px;
+}
+
+.transaction-content .cart-item .cart-item-image img {
+  min-width: 100%;
+  max-height: 100%;
+}
+
+.transaction-content .cart-item .cart-item-image button {
+  padding: 0px 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: poppinssemibold;
+  font-size: 1.2rem;
+  background: #af4f01;
+  outline: none;
+  border: none;
+  border-top-left-radius: 5px;
+}
+
+.transaction-content .cart-item .cart-item-description {
+  width: auto;
+  height: auto;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details {
+  width: 100%;
+  height: auto;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details .cart-item-title h2 {
+  font-size: 1.2rem;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details .cart-item-text {
+  text-align: justify;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details .cart-item-text p {
+  font-size: 0.9rem;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details .cart-item-price {
+  font-family: poppinssemibold;
+  font-size: 0.9rem;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details .cart-status {
+  width: auto;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details .cart-status p {
+  width: auto;
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-details .cart-status p#delivered-product {
+  background: #035e03;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-item-buttons {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-item-buttons .view-button {
+  width: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.transaction-content .cart-item .cart-item-description .cart-item-buttons .view-button a {
+  color: #753300;
+  text-decoration: none;
+}
+/*# sourceMappingURL=transactions.css.map */

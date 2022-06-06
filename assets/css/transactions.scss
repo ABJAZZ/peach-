@@ -1,0 +1,106 @@
+.transaction-content{
+    width: 100%;
+    padding: 20px 10vw;
+
+    .cart-item{
+        width: 100%;
+        height: auto;
+        display: flex;
+
+        .cart-item-image{
+            width: 10%;
+            height: 200px;
+            min-width: 150px;
+            overflow: hidden;
+            position: relative;
+            margin-right: 20px;
+
+            img{
+                min-width: 100%;
+                max-height: 100%;
+            }
+
+            button{
+                padding: 0px 5px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                font-family: poppinssemibold;
+                font-size: 1.2rem;
+                background: #af4f01;
+                outline: none;
+                border: none;
+                border-top-left-radius: 5px;
+            }
+        }
+
+        .cart-item-description{
+            width: auto;
+            height: auto;
+
+            .cart-details{
+                width: 100%;
+                height: auto;
+
+                .cart-item-title{
+
+                    h2{
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .cart-item-text{
+                    text-align: justify;
+                    p{
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .cart-item-price{
+                    font-family: poppinssemibold;
+                    font-size: 0.9rem;
+                }
+
+                .cart-status{
+                    width: auto;
+
+                    p{
+                        width: auto;
+                        display: inline-block;
+                        padding: 0 10px;
+                        border-radius: 20px;
+                        color: white;
+                        font-size: 0.8rem;
+
+                        margin-top: 5px;
+
+
+                    }
+
+                    p#delivered-product{
+                        background: rgb(3, 94, 3);
+                        
+                    }
+                }
+
+            }
+
+            .cart-item-buttons{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+
+                .view-button{
+                    width: auto;
+                    display: inline-flex;
+
+                    a{
+                        color: #753300;
+                        text-decoration: none;
+                    }
+                }
+
+            }
+        }
+    }
+}
